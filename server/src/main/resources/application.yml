@@ -1,0 +1,18 @@
+server:
+  port: 80
+spring:
+  main:
+    allow-circular-references: true
+  servlet:
+   multipart:
+    max-file-size: 150MB
+    max-request-size: 200MB
+  mvc:
+    pathmatch:
+     matching-strategy: ANT_PATH_MATCHER
+file:
+  defaultPath: D:\test\test
+
+basicauth:
+  username: root
+  password: toor
